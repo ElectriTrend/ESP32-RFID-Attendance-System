@@ -105,6 +105,14 @@ RFID Scan → ESP32 → LCD Display → Google Form Submission → Telegram Noti
 📱 Android/iOS app for admin view  
 💬 Voice assistant or dashboard control  
 
+🧩 Get Telegram Chat ID
+
+To find your Telegram Chat ID, open this link in your browser (replace <YOUR_BOT_TOKEN> with your actual token):
+
+🔗 https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
+
+Then send any message to your bot on Telegram — your chat ID will appear in the JSON response under "chat":{"id": ... }.
+
 ---
 
 ### 📜 License  
